@@ -3,11 +3,11 @@
 *.ipynb_checkpoints
 
 # ignore all the images in website
-website/**/*.png
-website/**/*.jpg
-website/**/*.svg
-website/**/*.pyc
-website/**/*.jpeg
+*.png
+*.jpg
+*.svg
+*.pyc
+*.jpeg
 
 # ignore the json file
 *.json
@@ -15,3 +15,16 @@ website/**/*.jpeg
 # ignore all the databases
 instance/
 *.db_sqlite3
+
+# my secrets
+.env
+
+# ignore my virtual environment
+.venv/
+*__pycache__
+
+# ignore all the logs
+# logs/**/*.log
+# logs/**/*.json
+
+docs/
